@@ -1,0 +1,23 @@
+.about-me {
+    min-height: 840px;
+    padding: 120px 0;
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 35% 50%;
+        grid-template-rows: minmax(600px, 1fr);
+        gap: 70px;
+    }
+    &__block {
+        display: grid;
+        grid-template-rows: 245px 116px 116px;
+        grid-template-columns: 260px 260px;
+        grid-auto-flow: row;
+        column-gap: 50px;
+        
+    }
+    &__info {
+        grid-column: 1/ span 2;
+        grid-row: 1/2;
+    }
+}
