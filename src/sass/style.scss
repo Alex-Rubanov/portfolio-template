@@ -8,11 +8,18 @@
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .container {
     width: 1140px;
     margin: 0 auto;
+}
+
+.divider {
+    width: 60px;
+    border: 3px solid $main-color;
+    margin-bottom: 60px;
 }
 
 @import 'blocks/promo';
@@ -21,4 +28,6 @@
 @import 'blocks/aside';
 @import 'blocks/menu';
 @import 'blocks/about';
+
+
 
