@@ -19,4 +19,22 @@
         font-size: 20px;
         line-height: 30px;
     }
+    &__section-title {
+        text-align: center;
+        position: relative;
+        margin-bottom: 6px;
+        &:before {
+            content: '';
+            @include before_circle;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            top: -6px;
+            z-index: -1;
+        }
+    }
+    &__section-subtitle {
+        text-align: center;
+        margin-bottom: 25px;
+    }
 }
