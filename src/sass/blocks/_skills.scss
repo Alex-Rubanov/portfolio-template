@@ -4,8 +4,8 @@
     &__items {
         display: grid;
         grid-template-columns: repeat(4, minmax(270px, 1fr));
-        grid-template-rows: repeat(2, minamax(270px, auto));
-        grid-auto-rows: minamax(270px, auto);
+        grid-template-rows: repeat(2, minmax(270px, auto));
+        grid-auto-rows: minmax(270px, auto);
         gap: 13px; 
         padding: 0 10px; 
         margin-bottom: 120px;
