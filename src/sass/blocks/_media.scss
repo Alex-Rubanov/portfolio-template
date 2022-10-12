@@ -80,6 +80,17 @@
             row-gap: 25px;
         }
     }
+    .price {
+        &__list {
+            padding: 0;
+            gap: 30px 20px;
+            grid-template: repeat(3,minmax(44px,auto)) / repeat(auto-fit, 330px);
+            justify-content: center;
+            .list__item-head {
+                gap: 15px;
+            }
+        }
+    }
 }
 
 @media (max-width: 768px) {
@@ -334,6 +345,26 @@
         }
         .divider {
             margin-bottom: 40px;
+        }
+    }
+    .price {
+        padding-bottom: 40px;
+        .title {
+            &_fz16 {
+                margin-bottom: 21px;
+            }
+        }
+        .divider {
+            margin-bottom: 20px;
+        }
+        &__list {
+            padding: 0;
+            gap: 20px;
+            grid-template: repeat(3,minmax(44px,auto)) / repeat(auto-fit, 300px);
+            justify-content: center;
+            .list__item-head {
+                gap: 15px;
+            }
         }
     }
 }

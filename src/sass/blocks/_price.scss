@@ -16,6 +16,7 @@
         &-head {
             display: grid;
             grid-template-columns: 2fr 1fr;
+            grid-template-rows: minmax(21px, auto);
             justify-content: space-between;
             margin-bottom: 5px;
         }
