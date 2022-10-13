@@ -93,7 +93,7 @@
         &-link {
             transition: 0.85s ease-in-out;
             &:hover {
-                transform: scale(1.2) translateY(-2px) rotateY(360deg);
+                transform: scale(1.2) translateY(-2px);
                 svg path {
                     fill: #fff;
                 }
